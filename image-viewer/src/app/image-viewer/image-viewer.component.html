@@ -1,0 +1,8 @@
+<mat-form-field floatLabel="float">
+  <input matInput (keyup.enter)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
+
+<button mat-raised-button (click)="applyFilter($event.target.value)">Search</button>
+
+<ks-modal-gallery [id]="5" [modalImages]="images"
+                  [plainGalleryConfig]="plainGalleryGrid"></ks-modal-gallery>
