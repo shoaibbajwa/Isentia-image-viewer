@@ -1,0 +1,12 @@
+{
+	"name": "nodeapp",
+	"version": "1.0.0",
+	"description": "nodeapp",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo No test"
+	},
+	"dependencies": {
+		"express": "^4.16.3"
+	}
+}
